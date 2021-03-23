@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/tanayvan.github.io/static/css/main.0ea8fa59.chunk.css",
+    "main.js": "/tanayvan.github.io/static/js/main.c7b22894.chunk.js",
+    "main.js.map": "/tanayvan.github.io/static/js/main.c7b22894.chunk.js.map",
+    "runtime-main.js": "/tanayvan.github.io/static/js/runtime-main.9c82951b.js",
+    "runtime-main.js.map": "/tanayvan.github.io/static/js/runtime-main.9c82951b.js.map",
+    "static/js/2.cda473d6.chunk.js": "/tanayvan.github.io/static/js/2.cda473d6.chunk.js",
+    "static/js/2.cda473d6.chunk.js.map": "/tanayvan.github.io/static/js/2.cda473d6.chunk.js.map",
+    "index.html": "/tanayvan.github.io/index.html",
+    "static/css/main.0ea8fa59.chunk.css.map": "/tanayvan.github.io/static/css/main.0ea8fa59.chunk.css.map",
+    "static/js/2.cda473d6.chunk.js.LICENSE.txt": "/tanayvan.github.io/static/js/2.cda473d6.chunk.js.LICENSE.txt",
+    "static/media/profile.ff5f5e63.jpg": "/tanayvan.github.io/static/media/profile.ff5f5e63.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c82951b.js",
+    "static/js/2.cda473d6.chunk.js",
+    "static/css/main.0ea8fa59.chunk.css",
+    "static/js/main.c7b22894.chunk.js"
+  ]
+}
