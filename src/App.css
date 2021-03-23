@@ -1,38 +1,260 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  background-color: #121212;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  padding: 15px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.active {
+  background-color: #383838;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heading {
+  font-size: 3rem;
+  margin: 1.5rem 1rem;
+}
+.about p {
+  margin: 1.5rem 1rem;
+}
+.about ul {
+  list-style: none;
+  margin: 1.5rem 1rem;
+}
+.about ul li {
+  color: #84dfe2;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.about ul li i {
+  margin-right: 2px;
+}
+.about .description {
+  font-size: 1.4rem;
+  margin: 1rem 0;
+}
+.button {
+  padding: 1rem;
+  margin-top: 20px;
+  margin-right: 20px;
+  color: black;
+  background-color: #84dfe2;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.button:hover {
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+.bg-color {
+  background-color: #1d1d1d;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.experience p {
+  margin: 0 1rem;
+}
+.experience ul {
+  margin-left: 3rem;
+  list-style: none;
+}
+.experience ul li {
+  margin: 15px;
+}
+h5 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.home {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.home .heading {
+  font-size: 4rem;
+  font-weight: 500;
+}
+.home .sub-heading {
+  font-size: 2rem;
+  font-weight: 500;
+}
+img {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  animation: pulse linear 1.5s infinite;
+
+  margin-bottom: 10px;
+}
+.interest {
+  display: flex;
+  justify-content: space-between;
+}
+.main {
+  margin-left: 20vw;
+  width: fit-content;
+  overflow: hidden;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+.project-cards {
+  display: flex;
+}
+.section {
+  height: 100vh;
+  margin-left: 1rem;
+  margin-top: 4rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-bottom: 5rem;
+}
+.sidebar-container {
+  width: 20vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.sidebar-profile {
+  display: flex;
+  width: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  flex-direction: column;
+  padding: 0.5rem;
+  border-bottom: 0.5px solid white;
+  text-align: center;
+}
+.sidebar-links ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  align-items: flex-start;
   color: white;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.sidebar-links ul li {
+  width: 100%;
+}
+.sidebar-links ul li a {
+  display: block;
+  width: 100%;
+}
+.sidebar-links ul li button {
+  width: 100%;
+  margin: 0.2rem 0;
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 0;
+  font-size: 1.5rem;
+}
+.sidebar-links ul li:hover {
+  background-color: #383838;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar {
+  z-index: 10;
+  height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.skills {
+  display: flex;
+}
+.skills ul {
+  margin-right: 2rem;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(132, 223, 226, 0.8);
   }
-  to {
-    transform: rotate(360deg);
+
+  50% {
+    box-shadow: 0 0 0 15pxrgba (132, 223, 226, 0.6);
+  }
+  50% {
+    box-shadow: 0 0 0 20px rgba(132, 223, 226, 0.4);
+  }
+
+  100% {
+    box-shadow: 0 0 0 22px rgba(132, 223, 226, 0);
+  }
+}
+
+@media screen and (max-width: 1224px) {
+  .about {
+    margin-left: 0;
+    padding: 5px;
+  }
+  .about p {
+    text-align: center;
+  }
+  .button-container {
+    flex-direction: column;
+    font-size: 14px;
+  }
+
+  .experience ul {
+    list-style: none;
+    margin: 15px;
+  }
+  .heading {
+    font-size: 3rem;
+
+    text-align: center;
+  }
+  .home .heading {
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 500;
+  }
+  .home .sub-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  .main {
+    margin-left: 1rem;
+  }
+  .project-cards {
+    flex-direction: column;
+  }
+  .sidebar {
+    transform: translateX(-100%);
+    transition: transform 200ms ease-out;
+  }
+  .sidebar-active {
+    transform: translateX(0);
+    transition: transform 200ms ease-in;
+  }
+  .sidebar-container {
+    width: 70vw;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+  .sidebar-profile {
+    padding: 0.1rem;
+  }
+
+  .skills {
+    justify-content: center;
+    align-items: center;
   }
 }
