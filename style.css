@@ -1,0 +1,575 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Commissioner", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.button-link {
+  padding: 20px 25px;
+  background-color: #191921;
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  font-weight: 700;
+}
+.button-link:hover,
+.button-link-mobile:hover {
+  background-color: #434356;
+  color: white;
+  cursor: pointer;
+}
+.button-link-mobile {
+  padding: 20px 10px;
+  background-color: #f94f4f;
+
+  color: white;
+  text-decoration: none;
+  margin: 5px;
+  font-weight: 700;
+}
+.button-link-footer {
+  padding: 20px 25px;
+  background-color: #f94f4f;
+  color: white;
+  text-decoration: none;
+  width: fit-content;
+  font-weight: 700;
+}
+.button-link-footer:hover {
+  cursor: pointer;
+  background-color: #434356;
+  color: white;
+}
+.container {
+  margin: 25px;
+}
+.contact-us {
+  text-align: left;
+  margin: 70px 0;
+}
+.contact-container {
+  margin-top: 50px;
+}
+.contact-us-link {
+  font-size: 34px;
+  text-decoration: none;
+  color: #191921;
+}
+.contact-us-link:hover {
+  color: #f94f4f;
+}
+.footer {
+  width: 100%;
+  height: 200px;
+}
+.footer-button-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hamburger {
+  display: none;
+}
+header {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+}
+.hero {
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+}
+.hero-wrap {
+  margin: 102px 0;
+}
+.hero-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero-layout p {
+  margin: 25px 0;
+  font-size: 20px;
+}
+.heading-1 {
+  font-weight: 800;
+  font-size: 80px;
+  line-height: 80px;
+  margin-top: 50px;
+}
+.heading-2 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+.header-nav {
+  background-color: #f94f4f;
+  width: 55%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+}
+.header-nav-wrap {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+  padding-left: 25px;
+}
+
+.hero-illustrator {
+  margin-left: auto;
+  width: 85%;
+}
+.keypoints-container {
+  position: relative;
+  z-index: 3;
+  bottom: 100px;
+}
+.keypoints-desc {
+  background-color: #f94f4f;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.keypoints-card {
+  width: 350px;
+  margin: 30px 0;
+}
+.keypoints-desc h1 {
+  position: absolute;
+  opacity: 0.25;
+  color: white;
+  font-size: 80px;
+}
+.keypoints-desc h3 {
+  position: relative;
+  top: 50px;
+  left: 0px;
+  color: white;
+  font-size: 15px;
+  margin-left: 25px;
+  font-weight: 800;
+}
+.keypoints-desc p {
+  margin-top: 75px;
+  color: white;
+}
+.keypoint-heading-2 {
+  position: relative;
+  text-align: right;
+  left: 50px;
+  margin-left: 105px;
+}
+.nav-logo {
+  width: 45%;
+  margin-left: 100px;
+}
+.nav-links {
+  color: white;
+  text-decoration: none;
+  margin: 2px;
+}
+.nav-links:hover {
+  font-weight: 700;
+  color: white;
+}
+
+.mobile-nav {
+  display: none;
+  transition: all 2s ease-in 5s;
+}
+.mobile-nav-container {
+  display: none;
+}
+.strategic-design {
+  margin-top: 70px;
+}
+.strategic-design-cover {
+  background-image: url(./assets/desktop/daniel-korpai-pKRNxEguRgM-unsplash.jpg);
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.strategic-design-content {
+  background-color: #191921;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+}
+.strategic-design-content p {
+  margin: 50px 0;
+}
+.strategic-wrap {
+  margin-left: 50px;
+}
+.strategic-link {
+  color: #f94f4f;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #f94f4f;
+}
+.strategic-link:hover {
+  color: white;
+  border-bottom: 2px solid white;
+}
+.strategic-arrow {
+  position: relative;
+  left: 60px;
+}
+.project-section {
+  margin: 70px 0;
+}
+.testimonial-section {
+  margin: 70px 0;
+}
+.project-card {
+  margin: 50px 0;
+}
+.project-image {
+  width: 100%;
+  border-radius: 25px;
+  box-shadow: 0 7px 30px -10px rgba(150, 170, 180, 0.5);
+}
+.project-card-link {
+  text-decoration: none;
+}
+.project-card-header {
+  color: black;
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: 800;
+}
+.project-card-link:hover .project-card-header {
+  color: #f94f4f;
+}
+.project-card-link:hover .project-image {
+  opacity: 0.9;
+}
+@media only screen and (max-width: 600px) {
+  .button-link-footer {
+    margin: 25px 0;
+  }
+  .contact-us {
+    text-align: left;
+    margin: 70px 0;
+    padding-left: 20px;
+  }
+  .contact-container {
+    margin-top: 25px;
+  }
+  .contact-us-link {
+    font-size: 24px;
+  }
+  .header {
+    justify-content: space-between;
+  }
+  .hero-desc {
+    width: 100%;
+    display: flex;
+    margin: 20px;
+  }
+  .header-nav {
+    display: none;
+  }
+  .heading-1 {
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-top: 15px;
+  }
+  .heading-2 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 60px;
+    margin-top: 15px;
+  }
+  .strategic-link {
+    margin-left: auto;
+  }
+  .strategic-wrap {
+    text-align: center;
+  }
+  .hero-wrap {
+    margin: 25px 0;
+  }
+  .nav-logo {
+    width: 100%;
+    margin-left: 10%;
+  }
+  .hamburger {
+    display: block;
+    padding: 25px;
+  }
+
+  .mobile-nav {
+    display: flex;
+    width: 292px;
+    background-color: #191921;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.5s ease-out;
+    position: absolute;
+    left: 25%;
+    left: 50%;
+    transform: translate(-50%, -150%);
+  }
+
+  .active {
+    height: 300px;
+    transform: translate(-50%, 0%);
+    transition: all 0.5s ease-in;
+    display: flex;
+  }
+  .nav-links {
+    margin: 25px;
+  }
+  .strategic-design {
+    margin-top: 40px;
+  }
+  .strategic-design-cover {
+    height: 30vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .strategic-wrap {
+    margin: 25px 0;
+  }
+  .strategic-arrow {
+    display: none;
+  }
+  .keypoints-heading {
+    background-color: #f94f4f;
+    color: white;
+  }
+
+  .keypoints-container {
+    position: relative;
+    z-index: 3;
+    bottom: 0px;
+  }
+  .keypoints-card {
+    width: 250px;
+    margin: 25px 0;
+  }
+
+  .keypoints-desc h1 {
+    position: absolute;
+    opacity: 0.25;
+    color: #ffffff;
+    font-size: 50px;
+  }
+  .keypoints-desc h3 {
+    position: relative;
+    top: 30px;
+    left: 0px;
+    color: white;
+    font-size: 15px;
+    margin-left: 25px;
+    font-weight: 800;
+  }
+  .keypoints-desc p {
+    margin-top: 35px;
+    color: white;
+    font-size: 14px;
+  }
+  .keypoint-heading-2 {
+    position: relative;
+    text-align: center;
+    left: 0;
+    margin-left: 0;
+  }
+  .project-card {
+    margin: 25px 0;
+  }
+  .project-section {
+    margin: 50px 0;
+  }
+  .testimonial-section {
+    margin: 50px 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .header-nav-wrap {
+    width: 100%;
+  }
+  .strategic-design-cover {
+    background-image: url(./assets/desktop/daniel-korpai-pKRNxEguRgM-unsplash.jpg);
+
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+  }
+  .strategic-arrow {
+    display: none;
+  }
+  .strategic-wrap {
+    margin-left: 0px;
+  }
+  .keypoints-container {
+    position: relative;
+    z-index: 3;
+    bottom: 0px;
+  }
+  .keypoints-heading {
+    background-color: #f94f4f;
+    color: white;
+  }
+
+  .keypoints-container {
+    position: relative;
+    z-index: 3;
+    bottom: 0px;
+  }
+  .keypoints-card {
+    width: 250px;
+    margin: 25px 0;
+  }
+  .keypoints-desc h1 {
+    position: absolute;
+    opacity: 0.25;
+    color: #ffffff;
+    font-size: 50px;
+  }
+  .keypoints-desc h3 {
+    position: relative;
+    top: 30px;
+    left: 0px;
+    color: white;
+    font-size: 15px;
+    margin-left: 25px;
+    font-weight: 800;
+  }
+  .keypoints-desc p {
+    margin-top: 35px;
+    color: white;
+    font-size: 14px;
+  }
+  .keypoint-heading-2 {
+    position: relative;
+    text-align: center;
+    left: 0;
+    margin-left: 0;
+  }
+  .project-card-header {
+    font-size: 30px;
+  }
+}
+
+/* 
+testimonials */
+
+.testimonials-clean {
+  color: #313437;
+  background-color: #eef4f7;
+}
+
+.testimonials-clean p {
+  color: #7d8285;
+}
+
+.testimonials-clean h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width: 767px) {
+  .testimonials-clean h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.testimonials-clean .intro {
+  font-size: 16px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.testimonials-clean .intro p {
+  margin-bottom: 0;
+}
+
+.testimonials-clean .people {
+  padding: 50px 0 20px;
+}
+
+.testimonials-clean .item {
+  margin-bottom: 32px;
+}
+
+@media (min-width: 768px) {
+  .testimonials-clean .item {
+    height: 220px;
+  }
+}
+
+.testimonials-clean .item .box {
+  padding: 30px;
+  background-color: #fff;
+  position: relative;
+}
+
+.testimonials-clean .item .box:after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  bottom: -24px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-width: 12px 15px;
+  border-top-color: #fff;
+}
+
+.testimonials-clean .item .author {
+  margin-top: 28px;
+  padding-left: 25px;
+}
+
+.testimonials-clean .item .name {
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: inherit;
+}
+
+.testimonials-clean .item .title {
+  font-size: 13px;
+  color: #9da9ae;
+}
+
+.testimonials-clean .item .description {
+  font-size: 15px;
+  margin-bottom: 0;
+}
